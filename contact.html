@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Basic-Portfolio: Pham, Loann</title>
+        <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    </head>
+
+    <body>
+
+        <div id="header">
+            <div id="container">
+            <h1 id="name">
+                <strong>Loann Pham</strong>
+            </h1>
+
+                <ul>
+                    <li><a href="about">About</a></li>
+                    <li><a href="portfolio">Portfolio</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="container" class="contact-form">
+                
+            <h1 id="contact">Contact</h1>
+
+        <div class="form-container">
+            <h1>Contact Us</h1>
+              
+            <form  method="post" id="reused_form" >
+                <label for="name">Name</label>
+                <input id="name" type="text" name="Name" required maxlength="50">
+              
+                <label for="email">Email</label>
+                <input id="email" type="email" name="Email" required maxlength="50">
+              
+                <label for="message">Message</label>
+                <textarea id="message" name="Message" rows="10" maxlength="6000" required></textarea>
+              
+                <button class="button-primary" type="submit" >Submit</button>
+            </form>
+
+        <div  id="message-confirm" style="display:none">
+            <h3>Message submitted.</h3>
+                <p>Thank you for reaching out!</p>
+        </div>
+
+
+        </div>                    
+        </div>
+    
+        <footer>Copyright &copy;</footer>
+    
+        </body>
+    </html>

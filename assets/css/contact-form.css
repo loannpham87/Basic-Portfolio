@@ -77,7 +77,7 @@ li:first-child {
     border: none;
 }
 
-.section {
+.contact-form {
     width: 960px;
     padding: 20px;
     margin: 50px;
@@ -85,16 +85,11 @@ li:first-child {
     background-color: black;
 }
 
-#abtme {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 28px;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    border-bottom: #cccccc 2px solid;
+.form-container {
 
 }
+
+#reused_form
 
 img {
     float: left;
