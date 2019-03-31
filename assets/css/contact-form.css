@@ -20,15 +20,10 @@ body {
     border-bottom: #cccccc 2px solid;
     position: sticky;
     margin: auto 0;
-    text align-content: center;
-
+    text-align: center;
 }
 
-h1{
-    float: left;
-}
-
-#name {
+#my-name {
     width: 200px;
     height: 30px;
     background-color: #4aaaa5;
@@ -42,15 +37,7 @@ h1{
     margin-bottom: 5px;
 }
 
-nav {
-    clear: both;
-    overflow: auto;
-    float: right;
-    margin: 0;
-    display: block;
-}
-
-ul {
+#nav {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     list-style-type: none;
@@ -60,12 +47,12 @@ ul {
     float: right;
 }
 
-li {
+.nav-li {
     display: inline-block;
     border-left: #777777 solid 1px;
 }
 
-li a {
+.nav-li a {
     color: #777777;
     padding: 0px 8px 0px 8px;
     border-bottom: 1px #cccccc;
@@ -73,7 +60,7 @@ li a {
     text-decoration: none;
 }
 
-li:first-child {
+.nav-li:first-child {
     border: none;
 }
 
@@ -81,8 +68,7 @@ li:first-child {
     width: 960px;
     padding: 20px;
     margin: 50px;
-    background-image: url("assets\images\prism.jpg"); background-repeat: repeat;
-    background-color: black;
+    background-color: white;
 }
 
 .form-container {
@@ -90,11 +76,6 @@ li:first-child {
 }
 
 #reused_form
-
-img {
-    float: left;
-    margin-right: 20px;
-}
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
